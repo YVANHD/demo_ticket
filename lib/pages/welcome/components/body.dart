@@ -4,6 +4,7 @@ import 'dart:async';
 import 'dart:convert';
 
 import 'package:demo_app/data/controller/auth_controller.dart';
+import 'package:demo_app/pages/auth/forget/forgot_screen.dart';
 import 'package:demo_app/pages/auth/inscription/inscription_screen.dart';
 import 'package:demo_app/pages/home/home_screen.dart';
 import 'package:demo_app/pages/main_page.dart';
@@ -133,7 +134,7 @@ class Body extends StatelessWidget {
               ),
               GestureDetector(
                 onTap: () {
-                  
+                   Get.to(ForgotScreen());
                 },
                 child: Container(
                   padding: EdgeInsets.all(15),
@@ -154,7 +155,8 @@ class Body extends StatelessWidget {
           ),
           GestureDetector(
             onTap: () {
-              _connexion();
+              //_connexion();
+              Get.to(const MainPage());
             },
             child: Container(
               padding: EdgeInsets.all(15),

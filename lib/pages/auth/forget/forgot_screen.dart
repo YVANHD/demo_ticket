@@ -5,6 +5,7 @@ import 'dart:async';
 import 'dart:convert';
 
 import 'package:demo_app/data/controller/auth_controller.dart';
+import 'package:demo_app/pages/auth/forget/init_screen.dart';
 import 'package:demo_app/utils/colors.dart';
 import 'package:demo_app/utils/dimensions.dart';
 import 'package:demo_app/widget/app_text_field.dart';
@@ -136,7 +137,7 @@ class _ForgotScreenState extends State<ForgotScreen> {
                           SizedBox(height: Dimensions.height20,),
                             GestureDetector(
                                 onTap: () {
-                                
+                                Get.to(InitScreen());
                                 },
                                 child: Container(
                                   padding: EdgeInsets.all(15),

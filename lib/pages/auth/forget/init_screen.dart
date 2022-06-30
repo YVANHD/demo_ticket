@@ -6,7 +6,6 @@ import 'dart:convert';
 
 import 'package:demo_app/data/controller/auth_controller.dart';
 import 'package:demo_app/pages/auth/connexion/connexion_screen.dart';
-import 'package:demo_app/pages/home/home_screen.dart';
 import 'package:demo_app/pages/main_page.dart';
 import 'package:demo_app/utils/colors.dart';
 import 'package:demo_app/utils/dimensions.dart';
@@ -17,14 +16,14 @@ import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:get/get.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-class NextInscriptionScreen extends StatefulWidget {
+class InitScreen extends StatefulWidget {
   static String routeName = "/otpforgot";
 
   @override
-  State<NextInscriptionScreen> createState() => _NextInscriptionScreenState();
+  State<InitScreen> createState() => _InitScreenState();
 }
 
-class _NextInscriptionScreenState extends State<NextInscriptionScreen> {
+class _InitScreenState extends State<InitScreen> {
   @override
   Widget build(BuildContext context) {
       var codeController = TextEditingController();

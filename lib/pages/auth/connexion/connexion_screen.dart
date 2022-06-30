@@ -5,6 +5,7 @@ import 'dart:async';
 
 import 'package:demo_app/data/controller/auth_controller.dart';
 import 'package:demo_app/pages/auth/forget/forgot_screen.dart';
+import 'package:demo_app/pages/main_page.dart';
 import 'package:demo_app/utils/colors.dart';
 import 'package:demo_app/utils/dimensions.dart';
 import 'package:demo_app/widget/app_text_field.dart';
@@ -210,7 +211,7 @@ class _LoginScreenState extends State<LoginScreen> {
                           SizedBox(height: Dimensions.height20,),
                             GestureDetector(
                                 onTap: () {
-                                
+                                Get.to(MainPage());
                                 },
                                 child: Container(
                                   padding: EdgeInsets.all(15),

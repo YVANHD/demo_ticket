@@ -4,7 +4,7 @@ import 'dart:async';
 import 'package:demo_app/data/controller/auth_controller.dart';
 import 'package:demo_app/pages/auth/connexion/connexion_screen.dart';
 import 'package:demo_app/pages/auth/inscription/activation_screen.dart';
-import 'package:demo_app/pages/auth/inscription/next_inscription_screen.dart';
+import 'package:demo_app/pages/auth/forget/init_screen.dart';
 import 'package:demo_app/utils/colors.dart';
 import 'package:demo_app/utils/dimensions.dart';
 import 'package:demo_app/widget/app_text_field.dart';

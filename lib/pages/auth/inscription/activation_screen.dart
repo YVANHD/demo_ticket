@@ -157,6 +157,21 @@ class _ActivationScreenState extends State<ActivationScreen> {
                       text:"Activation du numero  de telephone",
                       textAlign: TextAlign.center,
                     ),
+                    Padding(
+                      padding:  const EdgeInsets.all(10),
+                      child: Container(
+                        height: 80,
+                        child: Center(
+                          child: CircleAvatar(
+                            backgroundColor: Colors.grey.shade300,
+                            radius: 80,
+                            backgroundImage:  AssetImage(
+                              "assets/images/car.png"
+                            ),
+                          ),
+                        ),
+                      ),
+                    ),
                     Minuterie(),
                       Column(
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
